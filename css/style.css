@@ -181,6 +181,7 @@ article h2 { }
 
 #ninth article p { width: 400; margin-bottom: 25px; }
 #ninth article a { color: #ff0;}
+#ninth article h2 { font-size:30px; text-align: center; color: #FFF; }
 #ninth li { list-style-type:circle; }
 
 /* #bridge { background: url(../images/bridge.png) transparent no-repeat fixed; min-height: 1100px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; } */
