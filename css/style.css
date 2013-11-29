@@ -195,6 +195,22 @@ article h2 { }
 	z-index: 99901;
 	cursor: hand; cursor: pointer; 
 }
+#twitter {
+	position:fixed;
+	left:10px;
+	bottom:10px;
+	z-index: 99901;
+	cursor: hand; cursor: pointer; 
+}
+
+.fb-like {
+	position:fixed;
+	left:120px;
+	bottom:20px;
+	z-index: 99902;
+	cursor: hand; cursor: pointer; 
+}
+
 
 /* the overlayed element */
 .simple_overlay {
