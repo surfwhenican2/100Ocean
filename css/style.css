@@ -70,7 +70,7 @@ article h2 { }
 .address {
 }
 
-#first { background: url(../images/100OceanNight.jpg) no-repeat center center fixed; 
+#first { background: url(../images/100OceanWatercolor.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -205,7 +205,7 @@ article h2 { }
 
 .fb-like {
 	position:fixed;
-	left:120px;
+	left:250px;
 	bottom:20px;
 	z-index: 99902;
 	cursor: hand; cursor: pointer; 
