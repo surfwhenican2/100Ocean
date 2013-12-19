@@ -122,30 +122,31 @@ article h2 { }
 	background-attachment: fixed;
 	background-image: url(../images/Skyline.jpg);
 	background-repeat: no-repeat;
-	background-position: 35% 0;
+	background-position: center center;
 }
 #sixth {
 	background-attachment: fixed;
 	background-image: url(../images/Coronado%20Construciton.jpg);
 	background-repeat: no-repeat;
-	background-position: 30% 0;
+	background-position: center center;
 }
 #seventh {
 	background-attachment: fixed;
 	background-image: url(../images/Coronado-Village1.jpg);
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: center center;
 }
 #eighth {
 	background-attachment: fixed;
 	background-image: url(../images/View%20From%20Rooftop%20Deck%20.JPG);
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 #ninth {
 	background-attachment: fixed;
 	background-image: url(../images/Coronado-Beach-at-Dusk3.jpg);
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: center center;
 }
 
 /* Introduction */
@@ -337,6 +338,14 @@ article h2 { }
 	position:fixed;
 	right:10px;
 	top:10px;
+	z-index: 99901;
+	cursor: hand; cursor: pointer; 
+}
+
+#twitter {
+	position:fixed;
+	left:10px;
+	bottom:10px;
 	z-index: 99901;
 	cursor: hand; cursor: pointer; 
 }
