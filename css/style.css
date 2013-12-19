@@ -203,16 +203,14 @@ article h2 { }
 	cursor: hand; cursor: pointer; 
 }
 
-.fb-like {
+.fb-root {
+	position:absolute;
 	left:250px;
 	bottom:10px;
 	z-index: 99902;
 	cursor: hand; cursor: pointer; 
 }
 
-.fb_edge_widget_with_comment {
-	position: absolute;
-}
 
 
 /* the overlayed element */
