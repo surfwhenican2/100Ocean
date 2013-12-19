@@ -13,7 +13,7 @@
 </head> 
 <body> 
 
-<div data-role="page" id="home" style="background-image: url (../images/boat.jpg);">
+<div data-role="page" id="home" >
 
 	<div data-role="header">
 		<h1>2014 Coastal Living Showhouse</h1>
@@ -21,11 +21,19 @@
 	</div><!-- /header -->
 
 	<div data-role="content">	
+
+
 		<h1> Home Page </h1>
 		<p>View internal page called <a href="#design">design</a></p>
-		<p>Please join Coastal Living Magazine, Flagship Properties, and Flagg Coastal Homes this summer for Coastal Living's 2014 showhouse in Coronado. This is the magazine's first showhouse to be located on the westcoast. Betsie Burnham Design is the selected interior desinger for the 2014 showhouse and topea land is the landscape architech. This five bedrrom oceanfront home is located on Sunset Park on Coronado Island. Flagship Properties and its constuction division Flagg Coastal Homes has developed over 32 homes on the island. The showhome will be featured in the october issue of Coastal Living, and will be open for tours starting July 15, 2014. Coronado is the home of the US Navy Seals, and the Navy Seal Foundation has been selected as the beneficiary of the showhouse tours.
 
-		<br /><br />Bring your friends and enjoy and enjoy a westcoast beach home.</p>	
+	<div class="ui-grid-a">
+	<div class="ui-block-a"><strong>I'm Block A</strong> Please join Coastal Living Magazine, Flagship Properties, and Flagg Coastal Homes this summer for Coastal Living's 2014 showhouse in Coronado. This is the magazine's first showhouse to be located on the westcoast. Betsie Burnham Design is the selected interior desinger for the 2014 showhouse and topea land is the landscape architech. This five bedrrom oceanfront home is located on Sunset Park on Coronado Island. Flagship Properties and its constuction division Flagg Coastal Homes has developed over 32 homes on the island. The showhome will be featured in the october issue of Coastal Living, and will be open for tours starting July 15, 2014. Coronado is the home of the US Navy Seals, and the Navy Seal Foundation has been selected as the beneficiary of the showhouse tours.
+
+		<br /><br />Bring your friends and enjoy and enjoy a westcoast beach home.</div>
+	<div class="ui-block-b"><strong>I'm Block B</strong> and text inside will wrap</div>
+	</div><!-- /grid-a -->
+
+		<p></p>	
 
 	</div><!-- /content -->
 
@@ -33,7 +41,7 @@
 	<div data-role="navbar">
 		<ul>
 			<li><a href="#design" data-prefetch="true">Design</a></li>
-			<li><a href="#cosntruction" data-prefetch="true">Construction</a></li>
+			<li><a href="#construction" data-prefetch="true">Construction</a></li>
 			<li><a href="#aboutus" data-prefetch="true">About us</a></li>
 			<li><a href="#coronado" data-prefetch="true">Coronado</a></li>
 			<li><a href="#tour" data-prefetch="true">Tour</a></li>
@@ -44,7 +52,7 @@
 </div><!-- /page -->
 
 
-<div data-role="page" id="design" data-title="house">
+<div data-role="page" id="design">
 
 	<div data-role="header">
 		<h1>100 Ocean Drive Design</h1>
@@ -72,7 +80,7 @@
 		<div data-role="navbar">
 			<ul>
 				<li><a href="#design" data-prefetch="true" class="ui-btn-active ui-state-persist">Design</a></li>
-				<li><a href="#cosntruction" data-prefetch="true">Construction</a></li>
+				<li><a href="#construction" data-prefetch="true">Construction</a></li>
 				<li><a href="#aboutus" data-prefetch="true">About us</a></li>
 				<li><a href="#coronado" data-prefetch="true">Coronado</a></li>
 				<li><a href="#tour" data-prefetch="true">Tour</a></li>
@@ -81,7 +89,7 @@
 	</div><!-- /footer -->
 </div><!-- /page -->
 
-<div data-role="page" id="coronado" data-title="coronado">
+<div data-role="page" id="coronado">
 
 	<div data-role="header">
 		<h1>Coronado</h1>
@@ -104,7 +112,7 @@
 	<div data-role="navbar">
 		<ul>
 			<li><a href="#design" data-prefetch="true">Design</a></li>
-			<li><a href="#cosntruction" data-prefetch="true">Construction</a></li>
+			<li><a href="#construction" data-prefetch="true">Construction</a></li>
 			<li><a href="#aboutus" data-prefetch="true">About us</a></li>
 			<li><a href="#coronado" data-prefetch="true" class="ui-btn-active ui-state-persist">Coronado</a></li>
 			<li><a href="#tour" data-prefetch="true">Tour</a></li>
@@ -113,7 +121,7 @@
 </div><!-- /footer -->
 </div><!-- /page -->
 
-<div data-role="page" id="tour" data-title="tour">
+<div data-role="page" id="tour">
 
 	<div data-role="header">
 		<h1>Tour</h1>
@@ -143,7 +151,7 @@
 	<div data-role="navbar">
 		<ul>
 			<li><a href="#design" data-prefetch="true">Design</a></li>
-			<li><a href="#cosntruction" data-prefetch="true">Construction</a></li>
+			<li><a href="#construction" data-prefetch="true">Construction</a></li>
 			<li><a href="#aboutus" data-prefetch="true">About us</a></li>
 			<li><a href="#coronado" data-prefetch="true" class="ui-btn-active ui-state-persist">Coronado</a></li>
 			<li><a href="#tour" data-prefetch="true">Tour</a></li>
@@ -153,7 +161,7 @@
 </div><!-- /page -->
 
 
-<div data-role="page" id="aboutus" data-title="house">
+<div data-role="page" id="aboutus">
 
 	<div data-role="header">
 		<h1>About Us</h1>
@@ -176,8 +184,45 @@
 		<div data-role="navbar">
 			<ul>
 				<li><a href="#design" data-prefetch="true">Design</a></li>
-				<li><a href="#cosntruction" data-prefetch="true">Construction</a></li>
+				<li><a href="#construction" data-prefetch="true">Construction</a></li>
 				<li><a href="#aboutus" data-prefetch="true"class="ui-btn-active ui-state-persist">About us</a></li>
+				<li><a href="#coronado" data-prefetch="true">Coronado</a></li>
+				<li><a href="#tour" data-prefetch="true">Tour</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<div data-role="page" id="construction">
+
+	<div data-role="header">
+		<h1>Construction</h1>
+		<a href="../m/mobile.html" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<h2>Construction</h2>	
+		<p>Pre-construction and Design Services Contract: Flagship and its related homebuilding company, FLAGG Coastal Homes are experienced builders, subscribing to the notion that the most important step in constructing a new home is developing a quality plan. Not only must the site conditions be taken into account, but neighborhood, street presence, engineering and environmental conditions and importantly budget and schedule are all essential aspects of the plan. We are often asked to address and embrace the coastal charm of Coronado relying on our experience in building in this very unique environment.<br /><br />
+
+		Plan Approval & Permitting:   Based on our experience in developing and re-developing more than 30 homes in Coronado, we have a keen understanding of the permitting process for Coronado.  According to the complexity or size of the site, Flagship will also develop a schematic landscape and hardscape plan.<br /><br />
+
+		Schedule and Budget: Also included in the Pre-Construction Phase, Flagg will develop a &quot;Preliminary Budget and Building Schedule.&quot; This budget will contain a number of allowances for items such as cabinets, countertops, appliances and the like. Both Flagship, the development company; and Flagg Coastal Homes, the licensed contractor will utilize experiences from the past  30 &quot;Coastal Homes&quot; in Coronado to formulate a better, more refined budget and schedule. That experience translates into a comfort level and assurances that the home is in the hands of experienced professionals.<br /><br />
+
+		Construction Activities: Upon receipt of a building permit Flagship&apos;s role in pre-development will terminate and FLAGG Inc. the licensed and insured general contractor will execute a Construction Contract. Based on our experience, the &quot;Cost Plus a Fee&quot; contract including an appropriate contingency, allows the most efficient manner of work progression and minimizes the use of &quot;Change Orders&quot;  Recent experience in Coronado suggests that FLAGG is able to complete a new Coastal Home from start work to final permit in  8-11 months</p>
+
+		
+		<p><a href="#home">Back to Home</a></p>
+		
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#design" data-prefetch="true">Design</a></li>
+				<li><a href="#cosntruction" data-prefetch="true"class="ui-btn-active ui-state-persist">Construction</a></li>
+				<li><a href="#aboutus" data-prefetch="true">About us</a></li>
 				<li><a href="#coronado" data-prefetch="true">Coronado</a></li>
 				<li><a href="#tour" data-prefetch="true">Tour</a></li>
 			</ul>
