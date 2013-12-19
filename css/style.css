@@ -9,8 +9,6 @@ ul {
 h1 {
 	color: #fff;
 }
-
-
 nav#primary {
 	z-index: 99900;
 	position: fixed;
@@ -60,7 +58,7 @@ nav.next-prev {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-down.png') 0 0 no-repeat;
 		}
-#ninth a.next {
+#tenth a.next {
 		margin: 5px auto 0 auto;
 		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
 		}
@@ -79,70 +77,65 @@ article h2 { }
 }
 
 #first { background: url(../images/100OceanNight.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
   background-size: cover; }
 #second {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Boat.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#tenth { background: url(../images/100OceanTwo.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+#third { background: url(../images/100OceanTwo.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
   background-size: cover; }
-#third {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+#fourth {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/oceanocean.JPG);
 	background-repeat: no-repeat;
 	background-position: 40%;
 }
-#fourth {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+#fifth {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/navyseal.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#fifth {
+#sixth {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Skyline.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#sixth {
+#seventh {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Coronado%20Construciton.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#seventh {
+#eighth {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Coronado-Village1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#eighth {
+#ninth{
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/View%20From%20Rooftop%20Deck%20.JPG);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-#ninth {
+#tenth {
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
 	background-image: url(../images/Coronado-Beach-at-Dusk3.jpg);
 	background-repeat: no-repeat;
@@ -156,40 +149,16 @@ article h2 { }
 #first article a:hover { color: #fff; }
 
 /* Senior Formal */
-#second { padding: 50px 0;}
-#second .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second { padding: 20px 0;}
+#second .blackbox { margin-top:10px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
 #second article p { margin-bottom: 25px; width:400px; }
 #second article a { color: #ff0;}
 
-/* Senior Boat Cruise
-#third .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#third .bbox { color: #fff; width: 300px; margin-left: 100px; padding: 10px 20px; }
-
-#third article {  padding: 10px 20px; margin: 80px 0 0 58%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#third article p { width: 350px; margin-bottom: 25px; }
-// #cruise { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-*/
-
-/* Senior Formal Tickets */
-#tenth article {
-	padding: 10px 20px;
-	margin: 80px 0 0 56%;
-	line-height: 1.5em;
-	color: #fff;
-	position: absolute;
-	top: 234px;
-	left: -23px;
-}
-#tenth article p { width: 425px; margin-bottom: 25px; }
-#tenth article a { color: #ff0;}
-
-#tenth .blackbox { margin-top:0px; background:black; height:100%; color: #fff; width: 425px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-
 #tickets { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 
 /* Senior Arts Gala @ Bing */
-#third article {
+#fourth article {
 	padding: 10px 20px;
 	margin: 80px 0 0 56%;
 	line-height: 1.5em;
@@ -198,13 +167,13 @@ article h2 { }
 	top: -20px;
 	left: -817px;
 }
-#third article p {
+#fourth article p {
 	width: 600px;
 	margin-bottom: 25px;
 }
-#third article a { color: #ff0;}
+#fourth article a { color: #ff0;}
 
-#third .blackbox {
+#fourth .blackbox {
 	margin-top:20px;
 	background:black;
 	height:100%;
@@ -217,10 +186,10 @@ article h2 { }
 	border: 1px solid rgba(150,150,150,0.1);
 }
 
-#third li { list-style-type:circle; }
+#fourth li { list-style-type:circle; }
 
 /* Senior Workshops */
-#fourth .blackbox {
+#third .blackbox {
 	margin-top:70px;
 	background:black;
 	height:100%;
@@ -233,7 +202,7 @@ article h2 { }
 	box-shadow: 0 0 25px rgba(0,0,0,0.3);
 	border: 1px solid rgba(150,150,150,0.1);
 }
-#fourth article {
+#third article {
 	padding: 10px 20px;
 	margin: 80px 0 0 26%;
 	line-height: 1.5em;
@@ -244,15 +213,15 @@ article h2 { }
 }
 
 /*#fourth article {  margin-top:220px; margin-left: 35%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }*/
-#fourth article p {
+#third article p {
 	width: 550px;
 	margin-top: 25px;
 }
 
 /* Baccalaureate Speaker*/
-#fifth { padding: 50px 0;}
-#fifth .blackbox {
-	margin-top:70px;
+#sixth { padding: 50px 0;}
+#sixth .blackbox {
+	margin-top:20px;
 	background:black;
 	height:100%;
 	color: #fff;
@@ -265,12 +234,12 @@ article h2 { }
 	border: 1px solid rgba(150,150,150,0.1);
 }
 
-#fifth article p { margin-bottom: 25px; width:400px; }
-#fifth article a { color: #ff0;}
-#fifth li { list-style-type:circle;}
+#sixth article p { margin-bottom: 25px; width:500px; }
+#sixth article a { color: #ff0;}
+#sixth li { list-style-type:circle;}
 
 /* Senior Days */
-#sixth article {
+#fifth article {
 	padding: 10px 20px;
 	margin: 80px 0 0 56%;
 	line-height: 1.5em;
@@ -279,11 +248,11 @@ article h2 { }
 	top: -47px;
 	left: 12px;
 }
-#sixth article p {
+#fifth article p {
 	width: 550px;
 	margin-bottom: 25px;
 }
-#sixth .blackbox {
+#fifth .blackbox {
 	margin-top:70px;
 	background:black;
 	height:100%;
@@ -295,25 +264,25 @@ article h2 { }
 	box-shadow: 0 0 25px rgba(0,0,0,0.3);
 	border: 1px solid rgba(150,150,150,0.1);
 }
-#sixth li { list-style-type:circle;}
+#fifth li { list-style-type:circle;}
 
 /* Senior Nights*/
-#seventh { padding: 50px 0;}
-#seventh .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#eighth { padding: 50px 0;}
+#eighth .blackbox { margin-top:270px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
-#seventh article p { width: 400; margin-bottom: 25px; }
-#seventh article a { color: #ff0;}
-#seventh li { list-style-type:circle; }
+#eighth article p { width: 400; margin-bottom: 25px; }
+#eighth article a { color: #ff0;}
+#eighth li { list-style-type:circle; }
 
 /* Senior Toast */
-#eighth article {  padding: 10px 20px; margin: 80px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#eighth article p { width: 400px; margin-bottom: 25px; }
-#eighth .blackbox {
-	margin-top:70px;
+#seventh article {  padding: 10px 20px; margin: 80px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#seventh article p { width: 535px; margin-bottom: 25px; }
+#seventh .blackbox {
+	margin-top:0px;
 	background:black;
 	height:100%;
 	color: #fff;
-	width: 450px;
+	width: 550px;
 	padding: 10px 20px;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	line-height: 1.5em;
@@ -323,14 +292,22 @@ article h2 { }
 
 /* Commencement Weekend*/
 #ninth { padding: 50px 0;}
-#ninth .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#ninth .blackbox { 	margin-top:0px;
+	background:black;
+	height:100%;
+	color: #fff;
+	width: 550px;
+	padding: 10px 20px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+	line-height: 1.5em;
+	box-shadow: 0 0 25px rgba(0,0,0,0.3);
+	border: 1px solid rgba(150,150,150,0.1);
+}
 
-#ninth article p { width: 400; margin-bottom: 25px; }
+#ninth article { padding: 10px 20px; margin: 80px 0 0 56%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#ninth article p { width: 535px; margin-bottom: 25px; }
 #ninth article a { color: #ff0;}
-#ninth article h2 { font-size:30px; text-align: center; color: #FFF; }
-#ninth li { list-style-type:circle; }
 
-/* #bridge { background: url(../images/bridge.png) transparent no-repeat fixed; min-height: 1100px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; } */
 
 /* FAQ */
 
