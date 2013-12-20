@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="Shortcut Icon" href="images/header.gif">
-  	<script>
+    <script>
+    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    		console.log("Mobile Device Detected.");
+    		alert("We detected your visiting from a mobile browser. We are sending you to our mobile site for optimal viewing.");
+    		window.location.href = "m/mobile.html";
+		} else console.log("Mobile not detected.");
+    </script>
+	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -167,7 +174,7 @@
     	<article>
 			<div class="blackbox">    	
 				<img class="navyseal" src="images/img_trans.gif">
-				
+
       			<p>The Navy SEAL Foundation stands behind all U.S. Navy SEALs, Special Warfare Combatant-craft Crewmen, Naval Special Warfare support personnel, and their spouses and children. The Foundation coordinates closely with NSW commands to support critical needs of active-duty operators while also providing resources for NSW veterans. Our work is focused on three key areas: family services and command support, educational programs, and legacy activities.</p>
 				<p>The Foundation was formed in 2000 and underwent a name change in January 2011 when the SEAL-Naval Special Warfare Foundation and the Navy SEAL Warrior Fund combined their organizations. The merger makes it easier for families to receive assistance and support from one organization, while enabling the Foundation to respond rapidly to their needs.</p>
 				<p>Mission Statement<br>
