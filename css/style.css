@@ -52,15 +52,15 @@ nav.next-prev {
 		}
 	a.prev {
 		margin: 0 auto 5px auto;
-		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
+		
 		}
 	a.next {
 		margin: 5px auto 0 auto;
-		background: transparent url('../images/scroll-down.png') 0 0 no-repeat;
+		width: 67px; height: 67px; background:url("../images/Sprite2.png") -1681px -1203px;
 		}
 #tenth a.next {
 		margin: 5px auto 0 auto;
-		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
+		width: 67px; height: 67px; background:url("../images/Sprite2.png") -1867px -1203px;
 		}
 article h2 { }
 
