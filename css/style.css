@@ -150,9 +150,9 @@ article h2 { }
 
 /* Senior Formal */
 #second { padding: 20px 0;}
-#second .blackbox { margin-top:10px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second .blackbox { margin-top:10px; background:black; height:100%; color: #fff; width: 450px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
-#second article p { margin-bottom: 25px; width:400px; }
+#second article p { margin-bottom: 25px; width:450px; }
 #second article a { color: #ff0;}
 
 #tickets { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
@@ -168,7 +168,7 @@ article h2 { }
 	left: -817px;
 }
 #fourth article p {
-	width: 470px;
+	width: 550px;
 	margin-bottom: 25px;
 }
 #fourth article a { color: #ff0;}
@@ -178,7 +178,7 @@ article h2 { }
 	background:black;
 	height:100%;
 	color: #fff;
-	width: 500px;
+	width: 570px;
 	padding: 10px 20px;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 	line-height: 1.5em;
@@ -268,7 +268,7 @@ article h2 { }
 
 /* Senior Nights*/
 #eighth { padding: 50px 0;}
-#eighth .blackbox { margin-top:270px; background:black; height:100%; color: #fff; width: 400px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#eighth .blackbox { margin-top:270px; background:black; height:100%; color: #fff; width: 450px; margin-left: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
 
 #eighth article p { width: 400; margin-bottom: 25px; }
 #eighth article a { color: #ff0;}
