@@ -155,8 +155,6 @@ article h2 { }
 #second article p { margin-bottom: 25px; width:450px; }
 #second article a { color: #ff0;}
 
-#tickets { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-
 /* Senior Arts Gala @ Bing */
 #fourth article {
 	padding: 10px 20px;
