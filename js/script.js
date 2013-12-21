@@ -141,14 +141,14 @@ $(document).ready(function(){
     	}, 1000, function() {
 		});
     	return false;
-    })
+    });
     $('a.ninth').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#ninth').offset().top
     	}, 1000, function() {
 		});
     	return false;
-    })
+    });
 
 
 }); // document ready
@@ -167,38 +167,36 @@ function prevList() {
 function redrawDotNav(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
-	var section2Top =  $('#second').offset().top - (($('#tenth').offset().top - $('#second').offset().top) / 2);
-	var section10Top =  $('#tenth').offset().top - (($('#third').offset().top - $('#tenth').offset().top) / 2);
+	var section2Top =  $('#second').offset().top - (($('#third').offset().top - $('#second').offset().top) / 2);
 	var section3Top =  $('#third').offset().top - (($('#fourth').offset().top - $('#third').offset().top) / 2);
 	var section4Top =  $('#fourth').offset().top - (($('#fifth').offset().top - $('#fourth').offset().top) / 2);
 	var section5Top =  $('#fifth').offset().top - (($('#sixth').offset().top - $('#fifth').offset().top) / 2);
 	var section6Top =  $('#sixth').offset().top - (($('#seventh').offset().top - $('#sixth').offset().top) / 2);
 	var section7Top =  $('#seventh').offset().top - (($('#eighth').offset().top - $('#seventh').offset().top) / 2);
 	var section8Top =  $('#eighth').offset().top - (($('#ninth').offset().top - $('#eighth').offset().top) / 2);
-	var section9Top =  $('#ninth').offset().top - (($(document).height() - $('#ninth').offset().top) / 2);;
+	var section9Top =  $('#ninth').offset().top - (($('#tenth').offset().top - $('#ninth').offset().top) / 2);
+	var section10Top =  $('#tenth').offset().top - (($(document).height() - $('#tenth').offset().top) / 2);;
 	$('nav#primary a').removeClass('active');
 	if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
 		$('nav#primary a.first').addClass('active');
-	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section10Top){
+	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
 		$('nav#primary a.second').addClass('active');
-	} else if ($(document).scrollTop() >= section10Top && $(document).scrollTop() < section3Top){
-		$('nav#primary a.tenth').addClass('active');
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
-		$('nav#primary a.third').addClass('active');
+		$('nav#primary a.tenth').addClass('active');
 	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
-		$('nav#primary a.fourth').addClass('active');
+		$('nav#primary a.third').addClass('active');
 	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
-		$('nav#primary a.fifth').addClass('active');
+		$('nav#primary a.fourth').addClass('active');
 	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
-		$('nav#primary a.sixth').addClass('active');
+		$('nav#primary a.fifth').addClass('active');
 	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section8Top){
-		$('nav#primary a.seventh').addClass('active');
+		$('nav#primary a.sixth').addClass('active');
 	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section9Top){
+		$('nav#primary a.seventh').addClass('active');
+	} else if ($(document).scrollTop() >= section9Top && $(document).scrollTop() < section10Top){
 		$('nav#primary a.eighth').addClass('active');
-	} else if ($(document).scrollTop() >= section9Top){
+	} else if ($(document).scrollTop() >= section10Top){
 		$('nav#primary a.ninth').addClass('active');
 	} 
 	
 }
-
-// FAQ
