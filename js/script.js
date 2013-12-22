@@ -93,35 +93,28 @@ $(document).ready(function(){
 		});
     	return false;
     });
-     $('a.tenth').click(function(){
-    	$('html, body').animate({
-    		scrollTop:$('#tenth').offset().top
-    	}, 1000, function() {
-		});
-    	return false;
-    });
-    $('a.third').click(function(){
+     $('a.third').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#third').offset().top
     	}, 1000, function() {
 		});
     	return false;
     });
-	$('a.fourth').click(function(){
+    $('a.fourth').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#fourth').offset().top
     	}, 1000, function() {
 		});
     	return false;
     });
- 	$('a.fifth').click(function(){
+	$('a.fifth').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#fifth').offset().top
     	}, 1000, function() {
 		});
     	return false;
     });
-    $('a.sixth').click(function(){
+ 	$('a.sixth').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#sixth').offset().top
     	}, 1000, function() {
@@ -145,6 +138,13 @@ $(document).ready(function(){
     $('a.ninth').click(function(){
     	$('html, body').animate({
     		scrollTop:$('#ninth').offset().top
+    	}, 1000, function() {
+		});
+    	return false;
+    });
+    $('a.tenth').click(function(){
+    	$('html, body').animate({
+    		scrollTop:$('#tenth').offset().top
     	}, 1000, function() {
 		});
     	return false;
@@ -182,21 +182,21 @@ function redrawDotNav(){
 	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
 		$('nav#primary a.second').addClass('active');
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
-		$('nav#primary a.tenth').addClass('active');
-	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
 		$('nav#primary a.third').addClass('active');
-	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
 		$('nav#primary a.fourth').addClass('active');
-	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
+	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
 		$('nav#primary a.fifth').addClass('active');
-	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section8Top){
+	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
 		$('nav#primary a.sixth').addClass('active');
-	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section9Top){
+	} else if ($(document).scrollTop() >= section7Top && $(document).scrollTop() < section8Top){
 		$('nav#primary a.seventh').addClass('active');
-	} else if ($(document).scrollTop() >= section9Top && $(document).scrollTop() < section10Top){
+	} else if ($(document).scrollTop() >= section8Top && $(document).scrollTop() < section9Top){
 		$('nav#primary a.eighth').addClass('active');
-	} else if ($(document).scrollTop() >= section10Top){
+	} else if ($(document).scrollTop() >= section9Top && $(document).scrollTop() < section10Top){
 		$('nav#primary a.ninth').addClass('active');
+	} else if ($(document).scrollTop() >= section10Top){
+		$('nav#primary a.tenth').addClass('active');
 	} 
 	
 }
