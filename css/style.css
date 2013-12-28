@@ -165,15 +165,7 @@ article h2 { }
 
 /* Senior Arts Gala @ Bing */
 #fourth { padding: 50px 0;}
-#fourth article {
-	padding: 10px 20px;
-	margin: 80px 0 0 65%;
-	line-height: 1.5em;
-	color: #fff;
-	position: absolute;
-	top: -20px;
-	left: -817px;
-}
+
 #fourth article p {
 	width: 500px;
 	margin-bottom: 25px;
