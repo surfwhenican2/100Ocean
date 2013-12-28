@@ -124,7 +124,7 @@ article h2 { }
 #seventh {
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
 	background-attachment: fixed;
-	background-image: url(../images/Coronado%20Construciton.jpg);
+	background-image: url(../images/CoronadoIslands.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -261,7 +261,7 @@ article h2 { }
 	margin-bottom: 25px;
 }
 #fifth .blackbox {
-	margin-top:50px;
+	margin-top: 450px;
 	background:black;
 	height:100%;
 	color: #fff;
@@ -327,10 +327,6 @@ article h2 { }
 	z-index: 99901;
 	cursor: hand; cursor: pointer;
 	font-size: 30px;
-}
-
-#faq h1 {
-	font-size: 40px;
 }
 
 #twitter {
