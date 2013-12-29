@@ -313,8 +313,8 @@ article h2 { }
 
 #faq {
 	position:fixed;
-	right:10px;
-	bottom:0px;
+	right:30px;
+	bottom:20px;
 	z-index: 99901;
 	cursor: hand; cursor: pointer;
 }
