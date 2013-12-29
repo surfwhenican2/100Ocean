@@ -1,3 +1,23 @@
+img.showhouse { width: 460px; height: 54px; background:url("../images/GaramondSprite.png") -190px -1276px;}
+img.tickets { width: 381px; height: 54px; background:url("../images/GaramondSprite.png") -220px -1163px;}
+img.coastaldesign { width: 550px; height: 118px; background:url("../images/GaramondSprite.png") -143px -152px;}
+img.navyseal { width: 400px; height: 121px; background:url("../images/GaramondSprite.png") -180px -624px;}
+img.flagship { width: 471px; height: 127px; background:url("../images/GaramondSprite.png") -155px -797px;}
+img.flagg { width: 508px; height: 114px; background:url("../images/GaramondSprite.png") -157px -1001px;}
+img.coastalconst { width: 504px; height: 104px; background:url("../images/GaramondSprite.png") -175px -1470px;}
+img.island { width: 420px; height: 38px; background:url("../images/GaramondSprite.png") -170px -344px;}
+img.gala { width: 539px; height: 104px; background:url("../images/GaramondSprite.png") -190px -457px;}
+
+img.enter { width: 759px; height: 318px; background:url("../images/Sprite2.png") -237px -49px;}
+img.faq { width: 90px; height: 50px; background:url("../images/Sprite2.png") -2077px -1348px;}
+img.preorder { width: 428px; height: 98px; background:url("../images/Sprite2.png") -1562px -703px;}
+img.google { width: 356px; height: 94px; background:url("../images/Sprite2.png") -1658px -890px;}
+img.flagship1 { width: 400px; height: 145px; background:url("../images/Sprite2.png") -1055px -1203px;}
+img.houzz { width: 400px; height: 29px; background:url("../images/Sprite2.png") -1070px -888px;}
+img.flaggbox { width: 350px; height: 226px; background:url("../images/Sprite2.png") -65px -802px;}
+img.flagshipbox { width: 306px; height: 227px; background:url("../images/Sprite2.png") -447px -802px;}
+img.wedowork { width: 412px; height: 60px; background:url("../images/Sprite2.png") -1139px -1094px;}
+
 body {
 	background: #333132;
 }
