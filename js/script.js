@@ -1,9 +1,9 @@
 // On your marks, get set...
 $(document).ready(function(){
 	
-	$(".fancybox").fancybox();
-
 	$("img[rel]").overlay();
+	
+	$(".fancybox").fancybox();
     
 						
 	$('#weekendlist2').hide();					
